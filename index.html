@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miku</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/css.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark fixed-top navbar-expand-lg bg-miku">
+        <div class="container">
+            <a href="#" class="navbar-brand">Miku</a>
+            <div id="menuPrincipal">
+                <ul class="navbar-nav ">
+                    <li class="mav-item">
+                        <a href="#miku" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#carreira" class="nav-link">Carreira</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#comentarios" class="nav-link">Apoie a cantora!</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="card bg-dark border-0 " id="miku">
+        <img class="card-img card-img-top rounded-0 border-0" src="./imgs/miku_fundo.jpg" alt="mikucolorido">
+        <div class="card-img-overlay border-0 text-center" id="body-miku">
+            <div class="container p-5">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0">
+                            <h4 class="card-img-top bg-miku text-white rounded-0">A Voz do Futuro</h4>
+                            <div class="card-body text-center">
+                                <p class="card-text text-black">Hatsune Miku é uma cantora virtual criada em 2007 pela Crypton Future Media. Ela é o símbolo da união entre tecnologia e arte.</p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-md-4">
+                        <div class="card h-100 border-0">
+                            <h4 class="card-img-top bg-miku text-white rounded-0">Fama Mundial</h4>
+                            <div class="card-body text-center">
+                                <p class="card-text text-black">Mesmo sendo virtual, Miku conquistou palcos reais. Ela faz shows com hologramas 3D ao redor do mundo. Sua energia contagiante atrai fãs de todas as idades e países.</p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-md-4">
+                        <div class="card h-100 border-0">
+                            <h4 class="card-img-top bg-miku text-white rounded-0">Comunidade Criativa</h4>
+                            <div class="card-body text-center">
+                                <p class="card-text text-black">Milhares de artistas e fãs colaboram para dar vida à Miku. Músicas, clipes, jogos e fanarts são criados todos os dias, mostrando que ela não pertence a uma só pessoa</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="container p-5" id="carreira">
+        <div class="row">
+            <div class="col col-md-4">
+                <img src="./imgs/MikuPentagrama.jpg" class="mikuImg" alt="mikuNoCell">
+            </div>
+            <div class="col col-md-8">
+                <h1 class="text-primary text-primary">
+                    A carreira de Hatsune Miku
+                </h1>
+                <p>
+                    Hatsune Miku é uma cantora virtual japonesa criada pela empresa Crypton Future Media em 2007. Ela não é uma pessoa real, mas sim uma personagem gerada por computador que usa a tecnologia Vocaloid, um software que sintetiza vozes humanas para cantar músicas criadas pelos usuários. Seu nome significa “primeiro som do futuro” — algo que combina perfeitamente com sua proposta inovadora.
+                </p>
+                <p>
+                    Desde o seu lançamento, Miku se tornou um ícone da cultura pop japonesa e mundial. Com sua aparência marcante — cabelos longos azul-turquesa e roupas futuristas —, ela conquistou milhões de fãs. O mais impressionante é que qualquer pessoa pode compor uma música para ela, e foi isso que impulsionou sua fama: milhares de produtores criaram canções nos mais variados estilos, do pop ao rock e até música eletrônica.
+
+Com o tempo, Hatsune Miku deixou de ser apenas um software e passou a ser uma estrela dos palcos. Ela realiza shows “ao vivo” usando projeções holográficas em 3D, acompanhada por bandas reais. Suas apresentações já passaram por diversos países, incluindo Japão, Estados Unidos e outros lugares da Ásia e Europa, sempre com grande sucesso de público.
+                </p>
+                <p>
+                    Além da música, Miku também aparece em jogos, animes, comerciais e colaborações com marcas e artistas famosos, como Lady Gaga e Pharrell Williams. Ela representa não só uma revolução tecnológica, mas também uma nova forma de arte colaborativa, em que fãs e criadores trabalham juntos para dar vida a uma estrela que nunca envelhece.
+                </p>
+            </div>
+            <div class="row">
+                <a href="https://projectsekai-fandom-com.translate.goog/wiki/Hatsune_Miku?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc" class="btn btn-outline-primary">Saiba Mais!</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container p-5 bg-miku" id="comentarios">
+        <h4 class="text-center text-white">Mostre seu amor pela cantora!</h4>
+        <form class="row g-3 text-white" id="forms">
+            <div class="col-md-4">
+                <label for="Nome">Nome</label>
+                <input type="text" required class="form-control">
+            </div>
+            <div class="col-md-8">
+                <label for="Email">Email</label>
+                <input type="email" required class="form-control">
+            </div>
+            <div class="col-12">
+                <label for="msg">comentario</label>
+                <textarea name="msg" id="msg" class="form-control" rows="5"></textarea>
+            </div>
+            <div class="col-12 text-center">
+                <button type="submit" class="btn btn-expand-lg btn-primary">Enviar</button>
+                <button type="reset" class="btn btn-expand-lg btn-danger">Cancelar</button>
+            </div>
+        </form>
+    </div>
+
+    <footer class="bg-black">
+        <div class="container p-5">
+            <div class="row">
+                <div class="col text-white text-center">
+                    © Todos os direitos reservados, 2025!
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <link rel="stylesheet" href="./js/bootstrap.bundle.min.js">
+</body>
+</html>

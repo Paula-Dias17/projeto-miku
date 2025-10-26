@@ -1,0 +1,49 @@
+#miku{
+    max-height: 95vh;
+    height: auto;
+}
+
+#miku img{
+    object-fit: cover;
+    overflow: hidden;
+    filter: brightness(0.5);
+}
+
+#body-miku{
+    margin-top: 50vh;
+}
+
+#body-miku h4{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 5px;
+}
+
+.bg-miku{
+    background-color: rgb(187, 65, 167);
+}
+
+.mikuImg{
+    border-radius: 5px;
+    filter: brightness(0.6);
+    max-width: 40vh;
+    margin-top: 15px;
+}
+
+#carreira{
+    margin-top: 20vh;
+    background-color: antiquewhite;
+}
+
+#comentarios{
+    margin-top: 20vh;
+    min-height: 50vh;
+}
+
+.card{
+    background-color: antiquewhite;
+}
+
+#forms{
+    padding: 15px;
+}
